@@ -4,7 +4,7 @@
   # Create DB schema
   schema-project lentivirus
   
-	run file glue/build/extension/srlv/srlvSchemaExtensions.glue
+	#run file glue/build/extension/srlv/srlvSchemaExtensions.glue
 	
 	exit
 
@@ -23,9 +23,9 @@
     run file glue/build/extension/srlv/importIsolateDataSrlv.glue
 
 	# Do BLAST genotyping
-	create module -f modules/build/extension/srlv/blastGenotyperSrlv.xml
-	run script glue/build/extension/srlv/doBlastGenotying.js
-    run script glue/build/extension/srlv/updateGenotypesFromBlastResults.js
+	#create module -f modules/build/extension/srlv/blastGenotyperSrlv.xml
+	#run script glue/build/extension/srlv/doBlastGenotying.js
+    #run script glue/build/extension/srlv/updateGenotypesFromBlastResults.js
 
 	# Import alignments
 	run file glue/build/extension/srlv/unconstrainedAlignmentsSrlv.glue	
