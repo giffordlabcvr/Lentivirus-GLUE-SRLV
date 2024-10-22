@@ -1,195 +1,94 @@
   
-  # SRLV A0
-  create reference REF_SRLV_A_0_MW248464   ncbi-refseqs-srlv MW248464
-  create reference REF_SRLV_A_0_KT898826   ncbi-refseqs-srlv KT898826
-
-  # SRLV A1
-  create reference REF_SRLV_A1_M60610      ncbi-refseqs-srlv M60610     
-  create reference REF_SRLV_A1_M31646      ncbi-refseqs-srlv M31646
-  create reference REF_SRLV_A1_S51392      ncbi-refseqs-srlv S51392
-  create reference REF_SRLV_A1_KT898826    ncbi-refseqs-srlv KT898826
-  create reference REF_SRLV_A1_AF479638    ncbi-refseqs-srlv AF479638
-
-  # SRLV A4
-  create reference REF_SRLV_A4_HQ848062    ncbi-refseqs-srlv HQ848062
-  create reference REF_SRLV_A4_KT453988    ncbi-refseqs-srlv KT453988
-
-  # SRLV A3
-  create reference REF_SRLV_A3_MT993913    ncbi-refseqs-srlv MT993913
-  create reference REF_SRLV_A3_MT993914    ncbi-refseqs-srlv MT993914
-  create reference REF_SRLV_A3_MT993918    ncbi-refseqs-srlv MT993918
-  create reference REF_SRLV_A3_MT993900    ncbi-refseqs-srlv MT993900
-  create reference REF_SRLV_A3_MH916859    ncbi-refseqs-srlv MH916859
-
-  # SRLV A8
-  create reference REF_SRLV_A8_MG554405    ncbi-refseqs-srlv MG554405
-  create reference REF_SRLV_A8_MH374291    ncbi-refseqs-srlv MH374291
-  create reference REF_SRLV_A8_MH374284    ncbi-refseqs-srlv MH374284
-  create reference REF_SRLV_A8_MG554406    ncbi-refseqs-srlv MG554406
-
-  # SRLV A18
-  create reference REF_SRLV_A18_MH374287   ncbi-refseqs-srlv MH374287
-
-  # SRLV B1
-  create reference REF_SRLV_B1_HM210570    ncbi-refseqs-srlv HM210570
-  create reference REF_SRLV_B1_GU120138    ncbi-refseqs-srlv GU120138
-  create reference REF_SRLV_B1_FJ195346    ncbi-refseqs-srlv FJ195346
+  # SRLV-A0
+  create reference REF_SRLV_A0_KT898826	ncbi-refseqs-srlv	KT898826
+  create reference REF_SRLV_A0_MW248464	ncbi-refseqs-srlv	MW248464
   
-  # SRLV B2  
-  create reference REF_SRLV_B2_FJ195346    ncbi-refseqs-srlv FJ195346
-  create reference REF_SRLV_B2_MH374288    ncbi-refseqs-srlv MH374288
-
-  # SRLV B3  
-  create reference REF_SRLV_B3_JF502417    ncbi-refseqs-srlv JF502417
+  # SRLV-A1
+  create reference REF_SRLV_A1_AF479638	ncbi-refseqs-srlv	AF479638
+  create reference REF_SRLV_A1_M10608	ncbi-refseqs-srlv	M10608
+  create reference REF_SRLV_A1_M31646	ncbi-refseqs-srlv	M31646
+  create reference REF_SRLV_A1_M34193	ncbi-refseqs-srlv	M34193
+  create reference REF_SRLV_A1_M51543	ncbi-refseqs-srlv	M51543
+  create reference REF_SRLV_A1_M60610	ncbi-refseqs-srlv	M60610
+  create reference REF_SRLV_A1_MG554409	ncbi-refseqs-srlv	MG554409
+  create reference REF_SRLV_A1_S51392	ncbi-refseqs-srlv	S51392
   
-  # SRLV E subtypes
-  create reference REF_SRLV_E1_EU293537    ncbi-refseqs-core EU293537
-  create reference REF_SRLV_E2_GQ381130    ncbi-refseqs-core GQ381130
+  # SRLV-A3
+  create reference REF_SRLV_A3_KY358787	ncbi-refseqs-srlv	KY358787
+  create reference REF_SRLV_A3_KY358788	ncbi-refseqs-srlv	KY358788
+  create reference REF_SRLV_A3_MH916859	ncbi-refseqs-srlv	MH916859
+  create reference REF_SRLV_A3_MT993896	ncbi-refseqs-srlv	MT993896
+  create reference REF_SRLV_A3_MT993897	ncbi-refseqs-srlv	MT993897
+  create reference REF_SRLV_A3_MT993898	ncbi-refseqs-srlv	MT993898
+  create reference REF_SRLV_A3_MT993899	ncbi-refseqs-srlv	MT993899
+  create reference REF_SRLV_A3_MT993900	ncbi-refseqs-srlv	MT993900
+  create reference REF_SRLV_A3_MT993901	ncbi-refseqs-srlv	MT993901
+  create reference REF_SRLV_A3_MT993902	ncbi-refseqs-srlv	MT993902
+  create reference REF_SRLV_A3_MT993903	ncbi-refseqs-srlv	MT993903
+  create reference REF_SRLV_A3_MT993904	ncbi-refseqs-srlv	MT993904
+  create reference REF_SRLV_A3_MT993905	ncbi-refseqs-srlv	MT993905
+  create reference REF_SRLV_A3_MT993906	ncbi-refseqs-srlv	MT993906
+  create reference REF_SRLV_A3_MT993907	ncbi-refseqs-srlv	MT993907
+  create reference REF_SRLV_A3_MT993908	ncbi-refseqs-srlv	MT993908
+  create reference REF_SRLV_A3_MT993909	ncbi-refseqs-srlv	MT993909
+  create reference REF_SRLV_A3_MT993910	ncbi-refseqs-srlv	MT993910
+  create reference REF_SRLV_A3_MT993911	ncbi-refseqs-srlv	MT993911
+  create reference REF_SRLV_A3_MT993912	ncbi-refseqs-srlv	MT993912
+  create reference REF_SRLV_A3_MT993913	ncbi-refseqs-srlv	MT993913
+  create reference REF_SRLV_A3_MT993914	ncbi-refseqs-srlv	MT993914
+  create reference REF_SRLV_A3_MT993915	ncbi-refseqs-srlv	MT993915
+  create reference REF_SRLV_A3_MT993916	ncbi-refseqs-srlv	MT993916
+  create reference REF_SRLV_A3_MT993917	ncbi-refseqs-srlv	MT993917
+  create reference REF_SRLV_A3_MT993918	ncbi-refseqs-srlv	MT993918
+  
+  # SRLV-A4
+  create reference REF_SRLV_A4_AY445885	ncbi-refseqs-srlv	AY445885
+  create reference REF_SRLV_A4_HQ848062	ncbi-refseqs-srlv	HQ848062
+  create reference REF_SRLV_A4_KT453988	ncbi-refseqs-srlv	KT453988
+  create reference REF_SRLV_A4_KT453989	ncbi-refseqs-srlv	KT453989
+  create reference REF_SRLV_A4_KT453990	ncbi-refseqs-srlv	KT453990
+  
+  # SRLV-A8
+  create reference REF_SRLV_A8_MG554403	ncbi-refseqs-srlv	MG554403
+  create reference REF_SRLV_A8_MG554404	ncbi-refseqs-srlv	MG554404
+  create reference REF_SRLV_A8_MG554405	ncbi-refseqs-srlv	MG554405
+  create reference REF_SRLV_A8_MG554406	ncbi-refseqs-srlv	MG554406
+  create reference REF_SRLV_A8_MG554407	ncbi-refseqs-srlv	MG554407
+  create reference REF_SRLV_A8_MG554408	ncbi-refseqs-srlv	MG554408
+  create reference REF_SRLV_A8_MH374283	ncbi-refseqs-srlv	MH374283
+  create reference REF_SRLV_A8_MH374284	ncbi-refseqs-srlv	MH374284
+  create reference REF_SRLV_A8_MH374285	ncbi-refseqs-srlv	MH374285
+  create reference REF_SRLV_A8_MH374286	ncbi-refseqs-srlv	MH374286
+  create reference REF_SRLV_A8_MH374291	ncbi-refseqs-srlv	MH374291
+  
+  # SRLV-A18
+  create reference REF_SRLV_A18_MH374287	ncbi-refseqs-srlv	MH374287
+  
+  # SRLV-B1
+  create reference REF_SRLV_B1_AY900630	ncbi-refseqs-srlv	AY900630
+  create reference REF_SRLV_B1_GU120138	ncbi-refseqs-srlv	GU120138
+  create reference REF_SRLV_B1_HM210570	ncbi-refseqs-srlv	HM210570
+  create reference REF_SRLV_B1_KT214469	ncbi-refseqs-srlv	KT214469
+  create reference REF_SRLV_B1_KT749878	ncbi-refseqs-srlv	KT749878
+  create reference REF_SRLV_B1_KT749879	ncbi-refseqs-srlv	KT749879
+  create reference REF_SRLV_B1_KT749880	ncbi-refseqs-srlv	KT749880
+  create reference REF_SRLV_B1_KT749881	ncbi-refseqs-srlv	KT749881
+  create reference REF_SRLV_B1_MG554410	ncbi-refseqs-srlv	MG554410
+  create reference REF_SRLV_B1_MG554411	ncbi-refseqs-srlv	MG554411
+  create reference REF_SRLV_B1_MG554412	ncbi-refseqs-srlv	MG554412
+  create reference REF_SRLV_B1_MG554413	ncbi-refseqs-srlv	MG554413
+  create reference REF_SRLV_B1_MG996440	ncbi-refseqs-srlv	MG996440
+  create reference REF_SRLV_B1_MH374289	ncbi-refseqs-srlv	MH374289
+  create reference REF_SRLV_B1_MH374290	ncbi-refseqs-srlv	MH374290
+  create reference REF_SRLV_B1_MH936674	ncbi-refseqs-srlv	MH936674
+  create reference REF_SRLV_B1_MG554414	ncbi-refseqs-srlv	MG554414
 
+  # SRLV-B2
+  create reference REF_SRLV_B2_FJ195346	ncbi-refseqs-srlv	FJ195346
+  create reference REF_SRLV_B2_MH374288	ncbi-refseqs-srlv	MH374288
+  create reference REF_SRLV_B2_MG554402	ncbi-refseqs-srlv	MG554402
 
+  # SRLV-B3
+  create reference REF_SRLV_B3_JF502417	ncbi-refseqs-srlv	JF502417
 
-
-
-  reference REF_SRLV_B1_HM210570
-
-    add feature-location whole_genome
-    feature-location whole_genome
-      add segment 1 9090
-      exit
-
-    add feature-location 5LTR
-    feature-location 5LTR
-      add segment 1 164
-      exit
-         
-    add feature-location gag
-    feature-location gag
-      add segment 554 1879
-      exit
-
-    add feature-location matrix
-    feature-location matrix
-      add segment 554 1009
-      exit
- 
-    add feature-location capsid
-    feature-location capsid
-      add segment 1010 1498
-      exit
-      
-    add feature-location pro-pol
-    feature-location pro-pol
-      add segment 1759 5067
-      exit
-
-    add feature-location pro
-    feature-location pro
-      add segment 1759 2193
-      exit
-
-    add feature-location pol
-    feature-location pol
-      add segment 2194 5067
-      exit
-
-    add feature-location rt
-    feature-location rt
-      add segment 2368 3399
-      exit
-
-    add feature-location in
-    feature-location in
-      add segment 4225 5049
-      exit
-      
- 
-    add feature-location vif
-    feature-location vif
-      add segment 5027 5716
-      exit
- 
-    add feature-location tat
-    feature-location tat
-      add segment 5709 5972
-      exit
-          
-    add feature-location env
-    feature-location env
-      add segment 6033 8807
-      exit
-           
-    add feature-location rev
-    feature-location rev
-      add segment 6033 6144 --spliceIndex 1
-      add segment 8472 8764 --spliceIndex 2
-      exit
-
-    add feature-location 3LTR
-    feature-location 3LTR
-      add segment 8780 9090
-      exit
-
-  exit 
-
-
-
-  reference REF_SRLV_B2_FJ195346
-
-    add feature-location whole_genome
-    feature-location whole_genome
-      add segment 1 9136
-      exit
-
-    add feature-location 5LTR
-    feature-location 5LTR
-      add segment 1 162
-      exit
-         
-    add feature-location gag
-    feature-location gag
-      add segment 522 1862
-      exit
-
-    add feature-location pro-pol
-    feature-location pro-pol
-      add segment 1748 5050
-      exit
-
-    add feature-location pro
-    feature-location pro
-      add segment 1748 2176
-      exit
-
-    add feature-location pol
-    feature-location pol
-      add segment 2177 5050
-      exit
-
-    add feature-location vif
-    feature-location vif
-      add segment 5010 5699
-      exit
- 
-    add feature-location tat
-    feature-location tat
-      add segment 5692 5955
-      exit
-          
-    add feature-location env
-    feature-location env
-      add segment 6018 8864
-      exit
-           
-    add feature-location rev
-    feature-location rev
-      add segment 6018 6129 --spliceIndex 1
-      add segment 8529 8821 --spliceIndex 2
-      exit
-
-    add feature-location 3LTR
-    feature-location 3LTR
-      add segment 8836 9136
-      exit
-
-  exit 
 

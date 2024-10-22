@@ -1,11 +1,9 @@
 
   # Clean up
   delete module figTreeAnnotationExporterSrlv
-  delete module lentiPhyloUtility
-  
+
   # Create modules
   create module -f modules/analysis/phylogeny/extension/srlv/figTreeAnnotationExporterSrlv.xml
-  create module -f modules/analysis/phylogeny/core/lentiPhyloUtility.xml
   
   # Export annotations
   module figTreeAnnotationExporterSrlv 

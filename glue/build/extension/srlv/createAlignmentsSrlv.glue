@@ -1,8 +1,7 @@
-delete module lentiCompoundAligner
+delete module srlvCompoundAligner
 
-create module -f modules/build/core/lentiCompoundAligner.xml
+create module -f modules/build/extension/srlv/srlvCompoundAligner.xml
 
-compute alignment AL_SRLV_E  lentiCompoundAligner
 compute alignment AL_SRLV_A  lentiCompoundAligner
 #compute alignment AL_SRLV_A1  lentiCompoundAligner
 compute alignment AL_SRLV_BC  lentiCompoundAligner
@@ -10,3 +9,5 @@ compute alignment AL_SRLV_B1  lentiCompoundAligner
 compute alignment AL_SRLV_B2  lentiCompoundAligner
 compute alignment AL_SRLV_B3 lentiCompoundAligner
 compute alignment AL_SRLV_C  lentiCompoundAligner
+compute alignment AL_SRLV_E  lentiCompoundAligner
+

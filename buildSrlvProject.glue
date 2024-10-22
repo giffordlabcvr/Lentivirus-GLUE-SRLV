@@ -16,31 +16,40 @@
     # Import sources
     run file glue/build/extension/srlv/sourcesSrlv.glue
 
-    # Define extension references
+    # Define genome-length extension references
     run file glue/build/extension/srlv/ReferencesSrlv.glue
+
+    # Define feature locations on extension references
+    run file glue/build/extension/srlv/explicitFeatureLocations.glue
 
     # Extract and import isolate data for extension sequences
     run file glue/build/extension/srlv/importIsolateDataSrlv.glue
 
-	# Do BLAST genotyping
-	#create module -f modules/build/extension/srlv/blastGenotyperSrlv.xml
-	#run script glue/build/extension/srlv/doBlastGenotying.js
-    #run script glue/build/extension/srlv/updateGenotypesFromBlastResults.js
-
 	# Import alignments
 	run file glue/build/extension/srlv/unconstrainedAlignmentsSrlv.glue	
 
+	# Compute reference phylogeny
+	#run file glue/build/extension/srlv/computeRefPhylogeny.glue
+
+	# Prepare reference phylogenies
+    run file glue/build/extension/srlv/prepareReferencePhylogeny.glue
+    
+	# Import reference phylogenies
+	run file glue/build/extension/srlv/importGenotypingPhylogenySrlv.glue
+
+
 	# Add extension set sequences to constrained alignment tree
-	run file glue/build/extension/srlv/alignmentTreeSrlv.glue
+	run file glue/build/extension/srlv/alignmentTreeSrlvGenotyping.glue
+	#run file glue/build/extension/srlv/alignmentTreeSrlv.glue
 
     # Inherit feature locations
     #run file glue/build/extension/srlv/InheritFeatureLocationsSrlvRefs.glue
 	
 	# Compute alignments
-	run file glue/build/extension/srlv/createAlignmentsSrlv.glue
+	#run file glue/build/extension/srlv/createAlignmentsSrlv.glue
 	
 	# Record feature presence
-	run file glue/build/extension/srlv/recordFeaturePresenceSrlv.glue
+	#run file glue/build/extension/srlv/recordFeaturePresenceSrlv.glue
 
 	# Validate
 	validate

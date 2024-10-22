@@ -8,8 +8,8 @@
 		<displayName>Genotype</displayName>	
 		<whereClause>clade_category = 'genotype'</whereClause>
 		<distanceScalingExponent>-4.5</distanceScalingExponent>
-		<distanceCutoff>0.2</distanceCutoff>
-		<finalCladeCutoff>65.0</finalCladeCutoff>
+		<distanceCutoff>0.45</distanceCutoff>
+		<finalCladeCutoff>70.0</finalCladeCutoff>
 		
 	</cladeCategory>
 
@@ -20,8 +20,8 @@
 		<displayName>Subtype</displayName>	
 		<whereClause>clade_category = 'subtype'</whereClause>
 		<distanceScalingExponent>-4.5</distanceScalingExponent>
-		<distanceCutoff>0.1</distanceCutoff>
-		<finalCladeCutoff>65.0</finalCladeCutoff>
+		<distanceCutoff>0.25</distanceCutoff>
+		<finalCladeCutoff>70.0</finalCladeCutoff>
 		
 	</cladeCategory>
 
