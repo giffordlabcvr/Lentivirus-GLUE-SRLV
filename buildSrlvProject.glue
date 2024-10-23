@@ -10,7 +10,10 @@
 
   project lentivirus
 
-    # Import sources
+    # Define modules
+    run file glue/build/extension/srlv/modulesSrlv.glue
+
+    # Import genome length references
     run file glue/build/extension/srlv/sourcesSrlv.glue
 
     # Define genome-length extension references
@@ -41,7 +44,7 @@
 	run file glue/build/extension/srlv/importGenotypingPhylogenySrlv.glue
 
     # Inherit feature locations
-    #run file glue/build/extension/srlv/InheritFeatureLocationsSrlvRefs.glue
+    #run file glue/build/extension/srlv/inheritFeatureLocationsSrlvRefs.glue
 	
 	# Compute alignments
 	#run file glue/build/extension/srlv/createAlignmentsSrlv.glue
