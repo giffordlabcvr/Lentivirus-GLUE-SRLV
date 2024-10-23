@@ -1,10 +1,14 @@
- # GENOTYPING TREE
-  
- # Alignment tree extension
+  # Alignment tree for SRLVs
+
+  create alignment AL_TREE_OvineCaprine -r REF_SRLV_A  
+
   alignment AL_TREE_OvineCaprine  
 
     set field displayName "Small ruminant lentivirus (SRLV)"
     set field clade_category subgenus  
+
+    add member --whereClause "source.name = 'ncbi-refseqs-srlv'"
+    add member --whereClause "source.name = 'ncbi-refseqs-core' and species = 'SRLV'"
    
     extract child AL_TREE_SRLV_A --refName REF_SRLV_A
     demote member AL_TREE_SRLV_A --whereClause "sequence.genotype = 'A'" 
@@ -33,7 +37,7 @@
     demote member AL_TREE_SRLV_A3 --whereClause "sequence.subtype = 'A3'" 
 
     extract child AL_TREE_SRLV_A4 --refName REF_SRLV_A4_AY445885
-    demote member AL_TREE_SRLV_A4 --whereClause "sequence.subtype = 'A3'" 
+    demote member AL_TREE_SRLV_A4 --whereClause "sequence.subtype = 'A4'" 
 	
     extract child AL_TREE_SRLV_A8 --refName REF_SRLV_A8_MG554405
     demote member AL_TREE_SRLV_A8 --whereClause "sequence.subtype = 'A8'" 

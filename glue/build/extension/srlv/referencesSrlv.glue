@@ -80,7 +80,7 @@
   create reference REF_SRLV_B1_MG996440	ncbi-refseqs-srlv	MG996440
   create reference REF_SRLV_B1_MH374289	ncbi-refseqs-srlv	MH374289
   create reference REF_SRLV_B1_MH374290	ncbi-refseqs-srlv	MH374290
-  create reference REF_SRLV_B1_MH936674	ncbi-refseqs-srlv	MH936674
+  #create reference REF_SRLV_B1_MH936674	ncbi-refseqs-srlv	MH936674
   create reference REF_SRLV_B1_MG554414	ncbi-refseqs-srlv	MG554414
 
   # SRLV-B2
