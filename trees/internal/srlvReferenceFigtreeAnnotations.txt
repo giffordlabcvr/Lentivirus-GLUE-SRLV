@@ -1,5 +1,5 @@
 taxon	sequenceID	pubmed_id	source	name	isolate	country	subtype	genotype	collection_year
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-core/AF322109	AF322109	16476978	ncbi-refseqs-core	SRLV	1GA	Norway	C	B	-
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-core/AF322109	AF322109	16476978	ncbi-refseqs-core	SRLV	1GA	Norway	C1	C	-
 alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-core/EU293537	EU293537	18987157	ncbi-refseqs-core	SRLV	Roccaverano	Italy	E1	E	-
 alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-core/GQ381130	GQ381130	20060658	ncbi-refseqs-core	SRLV	Seui	Italy	E2	E	-
 alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-core/JF502416	JF502416	21562119	ncbi-refseqs-core	SRLV	Fonni	Italy	B3	B	-
