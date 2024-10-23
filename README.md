@@ -4,7 +4,7 @@ Welcome to the GitHub repository for **Lentivirus-GLUE-SRLV**: an extension to *
 
 **Small ruminant lentiviruses (SRLVs)** infect sheep and goats, causing chronic, lifelong diseases that impact various organ systems. 
 
-The SRLV extension layer incorporates all published SRLV sequence data linked to associated metadata, including information that is sequence-associated (length, publication date); taxonomic (viral genotype, subtype); and isolate-associated (isolation host species, date and location of sampling, isolation source).
+The SRLV extension to SRLV-GLUE incorporates all published SRLV sequence data linked to associated metadata, including information that is sequence-associated (length, publication date); taxonomic (viral genotype, subtype); and isolate-associated (isolation host species, date and location of sampling, isolation source).
 
 The SRLV extension of Lentivirus-GLUE provides functionality for genotyping SRLV sequences via **maximum likelihood**. Genotyping can be performed on any sequence of adequate length (typically >300 nucleotides are required for confident assignment). Any genomic region can be genotyped using the approach implemented in SRLV-GLUE.
 
