@@ -1,4 +1,4 @@
-## Small Ruminant Lentivirus Extension to Lentivirus~GLUE
+## Small Ruminant Lentivirus Extension to Lentivirus-GLUE
 
 <img src="md/sheep-droplet.jpg" align="right" alt="" width="280" />
 
