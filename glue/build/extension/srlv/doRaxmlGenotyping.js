@@ -1,55 +1,55 @@
-  
-var allResults = [];
 
-glue.inMode("module/srlvMaxLikelihoodGenotyper", function(){
+//Do genotype and lineage assignment for all ncbi nuccore sequences
+var sourceName ='ncbi-nuccore-srlv';
+var ncbinuccore;
+var whereClause = "source.name = '"+sourceName+"' and genotype = null";
+ncbinuccore = glue.tableToObjects(glue.command(["list", "sequence", "sequenceID", "-w", whereClause]));
+//glue.log("INFO", "RESULT WAS ", ncbinuccore);
+var processed = 0;
 
-	 var genotyperResult = glue.command(["genotype","sequence","-w", "species = 'SRLV'"]);
-	 glue.log("INFO", "Segment recogniser result was:", genotyperResult);  
-	 doe;
+_.each(ncbinuccore, function(ncbinuccore) {
 
-     genotyperResult = genotyperResult["blastSequenceRecogniserResult"];     
-     
-     var tableRows = genotyperResult["row"];
+	var sequenceID = ncbinuccore.sequenceID;
+	//glue.log("INFO", "ID RESULT WAS ", sequenceID);	
+	var sequenceWhereClause = "sequenceID = '" + sequenceID + "'";
+	var genotypeRow;
 
-	 _.each(tableRows, function(rowObj)  {
+	var genotypeResults;
+	glue.inMode("/module/srlvMaxLikelihoodGenotyper", function() {
+		genotypeResults = glue.command(["genotype", "sequence", "-w", sequenceWhereClause]);
+		//glue.log("INFO", "Genotype 1 RESULT WAS ", genotypeResults);			
+	});
+	var genotypeRows = genotypeResults.genotypeCommandResult.row;
+	genotypeRow = genotypeRows[0].value;
 
-		var valueObj = rowObj["value"];
-		var querySequenceId = valueObj[0];
-		var recogniserLineage = valueObj[1];
-		var direction = valueObj[2];
+	var subtypeResult = genotypeRow[1]
+	var genotypeResult = genotypeRow[2]
 
-		var idElements = querySequenceId.split('/');
-		var sourceName = idElements[0];
-		var sequenceID = idElements[1];
-	    glue.log("INFO", "Got value '"+recogniserLineage+" - "+direction+"' for sequence: '"+sequenceID+"'");
-		
-		var result = {};
-		result["sourceName"] = sourceName;
-		result["sequenceID"] = sequenceID;
-		result["recogniserLineage"] = recogniserLineage;
+	if (genotypeResult) {
 
-        allResults.push(result);
+		var genotype = genotypeResult.replace("AL_TREE_SRLV_", "");			
+		//glue.log("INFO", "Genotype result: ", genotype);
+		glue.inMode("sequence/"+sourceName+"/"+sequenceID, function() {
+			glue.command(["set", "field", "genotype", genotype]);
+		});
+	}
 
- 	 
-	 });
+	if (subtypeResult) {
 
-});
+		var subtype = subtypeResult.replace("AL_TREE_SRLV_", "");			
+		//glue.log("INFO", "Subtype result: ", subtype);			
+		glue.inMode("sequence/"+sourceName+"/"+sequenceID, function() {
+			glue.command(["set", "field", "subtype", subtype]);
+		});
+	}
+	processed++;
 
-//glue.log("INFO", "Genotyper results were:", allResults);
-_.each(allResults, function(resultObj)  {
+	if(processed % 10 == 0) {
+		glue.logInfo("Genotyped "+processed+" sequences. ");
+		glue.command(["commit"]);
+		glue.command(["new-context"]);
+	}
 
-	 // update the sequence table with the results
-	 
-	 var sourceName = resultObj["sourceName"];	 
-	 var sequenceID = resultObj["sequenceID"];	 
-	 var recogniserLineage = resultObj["recogniserLineage"];
-	 	 
-	 glue.inMode("sequence/"+sourceName+"/"+sequenceID, function() {
-	 
-	 	 if (recogniserLineage) {
-		 	glue.command(["set", "field", "rec_subtype", recogniserLineage]);
- 	 	 }
- 	 
-	 });
-	 
-});
+});	
+
+
