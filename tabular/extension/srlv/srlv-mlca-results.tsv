@@ -1,4 +1,4 @@
-source.name	sequenceID	species	subtype	genotype	host_sci_name	collection_year	country	place_sampled
+source.name	sequenceID	species	genotype	subtype	host_sci_name	collection_year	country	place_sampled
 ncbi-nuccore-srlv	A15114	SRLV	A	A1	-	-	-	
 ncbi-nuccore-srlv	AB818536	SRLV	A	A3	Ovis aries	-	Japan	 Iwate
 ncbi-nuccore-srlv	AF015180	SRLV	BC	B1	-	-	-	

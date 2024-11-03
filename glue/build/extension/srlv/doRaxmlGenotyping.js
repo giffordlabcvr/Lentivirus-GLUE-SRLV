@@ -22,8 +22,8 @@ _.each(ncbinuccore, function(ncbinuccore) {
 	var genotypeRows = genotypeResults.genotypeCommandResult.row;
 	genotypeRow = genotypeRows[0].value;
 
-	var subtypeResult = genotypeRow[1]
-	var genotypeResult = genotypeRow[2]
+	var genotypeResult = genotypeRow[1]
+	var subtypeResult = genotypeRow[2]
 
 	if (genotypeResult) {
 
