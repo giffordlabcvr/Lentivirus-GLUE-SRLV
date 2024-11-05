@@ -1,0 +1,5 @@
+
+    # Derive constrained reference  alignment from unconstrained alignment  
+	alignment AL_TREE_OvineCaprine
+		derive segments AL_UNC_TREE_OvineCaprine --recursive --existingMembersOnly --allMembers --mergeStrategy OVERWRITE
+		exit

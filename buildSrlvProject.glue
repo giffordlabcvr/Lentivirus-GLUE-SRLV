@@ -10,10 +10,10 @@
 
   project lentivirus
 
-    # Delete previous extension build
-    #run file glue/build/extension/srlv/deleteExtensionBuildSrlv.glue
+    # Define modules
+    run file glue/build/extension/srlv/modulesSrlv.glue
 
-    # Import sources
+    # Import genome length references
     run file glue/build/extension/srlv/sourcesSrlv.glue
 
     # Define genome-length extension references
@@ -25,8 +25,14 @@
     # Extract and import isolate data for extension sequences
     run file glue/build/extension/srlv/importIsolateDataSrlv.glue
 
-	# Import alignments
+	# Import unconstrained alignment
 	run file glue/build/extension/srlv/unconstrainedAlignmentsSrlv.glue	
+
+	# Define alignment tree
+	run file glue/build/extension/srlv/alignmentTreeSrlvGenotyping.glue
+
+    # Derive constrained alignment from unconstrained
+	run file glue/build/extension/srlv/deriveConstrainedMsas.glue
 
 	# Compute reference phylogeny
 	#run file glue/build/extension/srlv/computeRefPhylogeny.glue
@@ -34,16 +40,11 @@
 	# Prepare reference phylogenies
     run file glue/build/extension/srlv/prepareReferencePhylogeny.glue
     
-	# Import reference phylogenies
+	# Import reference phylogeny
 	run file glue/build/extension/srlv/importGenotypingPhylogenySrlv.glue
 
-
-	# Add extension set sequences to constrained alignment tree
-	run file glue/build/extension/srlv/alignmentTreeSrlvGenotyping.glue
-	#run file glue/build/extension/srlv/alignmentTreeSrlv.glue
-
     # Inherit feature locations
-    #run file glue/build/extension/srlv/InheritFeatureLocationsSrlvRefs.glue
+    #run file glue/build/extension/srlv/inheritFeatureLocationsSrlvRefs.glue
 	
 	# Compute alignments
 	#run file glue/build/extension/srlv/createAlignmentsSrlv.glue

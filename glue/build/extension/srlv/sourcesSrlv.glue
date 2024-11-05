@@ -1,7 +1,4 @@
  
   # Import GenBank sequences 
   import source sources/virus/extension/srlv/ncbi-refseqs-srlv
-  #import source sources/virus/extension/srlv/ncbi-curated-srlv
-  import source sources/virus/extension/srlv/ncbi-nuccore-srlv
-
 
