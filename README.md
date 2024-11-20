@@ -1,6 +1,6 @@
 ## Small Ruminant Lentivirus Extension to Lentivirus-GLUE
 
-<img src="md/sheep-droplet.jpg" align="right" alt="" width="280" />
+<img src="md/sheep-droplet.jpg" align="right" alt="" width="220" />
 
 Welcome to the GitHub repository for **Lentivirus-GLUE-SRLV**: an extension to **[Lentivirus-GLUE](https://github.com/giffordlabcvr/Lentivirus-GLUE)**.
 
