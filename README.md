@@ -19,14 +19,14 @@ For more details please see the Lentivirus-GLUE **[User Guide](https://github.co
 Installation
 ------------
 
-To install **Lentivirus-GLUE-ERV**, follow the instructions provided in the **[User Guide](https://github.com/giffordlabcvr/Lentivirus-GLUE/wiki)**.
+To install **Lentivirus-GLUE-SRLV**, follow the instructions provided in the **[User Guide](https://github.com/giffordlabcvr/Lentivirus-GLUE/wiki)**.
 
 You can choose between:
 
 -   **[Docker-based installation](https://github.com/giffordlabcvr/Lentivirus-GLUE/wiki/Docker-Installation)** for ease of deployment.
 -   **[Native installation](https://github.com/giffordlabcvr/Lentivirus-GLUE/wiki/Native-Installation)** for traditional setup.
 
-Lentivirus-GLUE-ERV can be installed as a prebuilt database for quick setup or constructed from scratch via (a project build process) for more customization.
+Lentivirus-GLUE-SRLV can be installed as a prebuilt database for quick setup or constructed from scratch via (a project build process) for more customization.
 
 * * * * *
 
