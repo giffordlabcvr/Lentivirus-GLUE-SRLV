@@ -14,9 +14,27 @@ Classification is based on maximum likelihood clade assignment (MLCA) as impleme
 
 For more details please see the Lentivirus-GLUE **[User Guide](https://github.com/giffordlabcvr/Lentivirus-GLUE/wiki/SRLV-Project-Development-Background)**.
 
+* * * * *
+
+Installation
+------------
+
+To install **Lentivirus-GLUE-ERV**, follow the instructions provided in the **[User Guide](https://github.com/giffordlabcvr/Lentivirus-GLUE/wiki)**.
+
+You can choose between:
+
+-   **[Docker-based installation](https://github.com/giffordlabcvr/Lentivirus-GLUE/wiki/Docker-Installation)** for ease of deployment.
+-   **[Native installation](https://github.com/giffordlabcvr/Lentivirus-GLUE/wiki/Native-Installation)** for traditional setup.
+
+Lentivirus-GLUE-ERV can be installed as a prebuilt database for quick setup or constructed from scratch via (a project build process) for more customization.
+
+* * * * *
+
 ## Data Sources
 
 Lentivirus-GLUE-SRLV is constructed using sequence data obtained from [NCBI Nucleotide](https://www.ncbi.nlm.nih.gov/nuccore).
+
+* * * * *
 
 ## Contributing
 
@@ -24,9 +42,13 @@ We welcome contributions from the community! If you're interested in contributin
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](./md/code_of_conduct.md)
 
+* * * * *
+
 ## License
 
 The project is licensed under the [GNU Affero General Public License v. 3.0](https://www.gnu.org/licenses/agpl-3.0.en.html)
+
+* * * * *
 
 ## Contact
 
