@@ -65,7 +65,7 @@
     #run file glue/build/extension/srlv/inheritFeatureLocationsSrlvRefs.glue
 	
 	# Add nuccore sequences to alignments, and compute alignments
-	#run file glue/build/extension/srlv/createAlignmentsSrlv.glue
+	#run file glue/build/extension/srlv/computeAlignmentsSrlv.glue
 	
 	# Record feature presence
 	#run file glue/build/extension/srlv/recordFeaturePresenceSrlv.glue
