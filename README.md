@@ -12,7 +12,7 @@ The SRLV extension of Lentivirus-GLUE provides functionality for genotyping SRLV
 
 Classification is based on maximum likelihood clade assignment (MLCA) as implemented in GLUE. Sequences are classified into genotypes and subtypes defined via phylogenetic analysis of full-length reference genome sequences.
 
-For more details please see the Lentivirus-GLUE **[User Guide](https://github.com/giffordlabcvr/Lentivirus-GLUE/wiki/SRLV-Project-Development-Background)**.
+For more details on the SRLV extension project please see the Lentivirus-GLUE **[User Guide](https://github.com/giffordlabcvr/Lentivirus-GLUE/wiki/SRLV-Project-Development-Background)**.
 
 * * * * *
 
