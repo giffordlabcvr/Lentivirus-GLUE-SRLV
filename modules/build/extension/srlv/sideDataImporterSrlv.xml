@@ -63,12 +63,6 @@
 		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 		
 	</textFileColumn>
 
-	<textFileColumn>
-		<header>Isolation Year</header>
-		<property>isolate_data.isolate</property>
-		<nullRegex>NK</nullRegex>
-		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 		
-	</textFileColumn>
 
 
 </textFilePopulator>
