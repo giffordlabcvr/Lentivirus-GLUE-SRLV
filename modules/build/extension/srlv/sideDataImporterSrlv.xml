@@ -3,66 +3,50 @@
 
 	<textFileColumn>
 		<identifier>true</identifier>
-		<header>Accession</header>
+		<header>sequenceID</header>
 		<property>sequenceID</property>
 	</textFileColumn>
 	
 	<textFileColumn>
-		<header>pubmed_id</header>
-		<property>pubmed_id</property>
-		<nullRegex>NK</nullRegex>
-		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 		
-	</textFileColumn>
-
-	<textFileColumn>
-		<header>Species</header>
+		<header>species</header>
 		<property>isolate_data.host_sci_name</property>
 		<nullRegex>NK</nullRegex>
-		<overwriteExistingNonNull>true</overwriteExistingNonNull>		
+		<overwriteExistingNonNull>true</overwriteExistingNonNull>  <!-- will not update to NULL --> 		
 	</textFileColumn>
 	
 	<textFileColumn>
-		<header>Subgenus</header>
+		<header>subgenus</header>
 		<property>subgenus</property>
 		<nullRegex>NK</nullRegex>
-		<overwriteExistingNonNull>true</overwriteExistingNonNull>		
+		<overwriteExistingNonNull>true</overwriteExistingNonNull>  <!-- will not update to NULL --> 		
 	</textFileColumn>
 	
 	<textFileColumn>
-		<header>Genotype</header>
+		<header>genotype</header>
 		<property>genotype</property>
 		<nullRegex>NK</nullRegex>
-		<overwriteExistingNonNull>true</overwriteExistingNonNull>		
+		<overwriteExistingNonNull>true</overwriteExistingNonNull>  <!-- will not update to NULL --> 		
 	</textFileColumn>
 	
 	<textFileColumn>
-		<header>Subtype</header>
+		<header>subtype</header>
 		<property>subtype</property>
 		<nullRegex>NK</nullRegex>
-		<overwriteExistingNonNull>true</overwriteExistingNonNull>		
+		<overwriteExistingNonNull>true</overwriteExistingNonNull>  <!-- will not update to NULL --> 		
 	</textFileColumn>
 		
 	<textFileColumn>
-		<header>Country</header>
+		<header>country</header>
 		<property>isolate_data.country</property>
 		<nullRegex>NK</nullRegex>
-		<overwriteExistingNonNull>true</overwriteExistingNonNull>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull>  <!-- will not update to NULL --> 	
 	</textFileColumn>
 	
 	<textFileColumn>
-		<header>Place_sampled</header>
-		<property>isolate_data.place_sampled</property>
-		<nullRegex>NK</nullRegex>
-		<overwriteExistingNonNull>true</overwriteExistingNonNull>
-	</textFileColumn>
-	
-	<textFileColumn>
-		<header>Isolation Year</header>
+		<header>collection_year</header>
 		<property>isolate_data.collection_year</property>
 		<nullRegex>NK</nullRegex>
 		<overwriteExistingNonNull>true</overwriteExistingNonNull> <!-- will not update to NULL --> 		
 	</textFileColumn>
-
-
 
 </textFilePopulator>
