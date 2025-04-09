@@ -21,5 +21,4 @@
 		<overwriteExistingNonNull>true</overwriteExistingNonNull>  <!-- will not update to NULL --> 		
 	</textFileColumn>
 		
-
 </textFilePopulator>
