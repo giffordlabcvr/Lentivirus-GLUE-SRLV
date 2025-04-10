@@ -1,0 +1,25 @@
+delete module srlvCompoundAligner
+delete module srlvCompoundAlignerNoRev
+delete module srlvCompoundAlignerNoTat
+
+create module -f modules/build/extension/srlv/srlvCompoundAligner.xml
+create module -f modules/build/extension/srlv/srlvCompoundAlignerNoRev.xml
+create module -f modules/build/extension/srlv/srlvCompoundAlignerNoTat.xml
+
+compute alignment AL_TREE_SRLV_A   srlvCompoundAligner       --whereClause "sequence.source.name = 'ncbi-nuccore-srlv'"
+compute alignment AL_TREE_SRLV_BC  srlvCompoundAligner       --whereClause "sequence.source.name = 'ncbi-nuccore-srlv'"
+compute alignment AL_TREE_SRLV_E   srlvCompoundAlignerNoTat  --whereClause "sequence.source.name = 'ncbi-nuccore-srlv'"
+
+compute alignment AL_TREE_SRLV_A1  srlvCompoundAlignerNoRev  --whereClause "sequence.source.name = 'ncbi-nuccore-srlv'"
+compute alignment AL_TREE_SRLV_A3  srlvCompoundAligner       --whereClause "sequence.source.name = 'ncbi-nuccore-srlv'"
+compute alignment AL_TREE_SRLV_A4  srlvCompoundAlignerNoRev  --whereClause "sequence.source.name = 'ncbi-nuccore-srlv'"
+compute alignment AL_TREE_SRLV_A8  srlvCompoundAlignerNoRev  --whereClause "sequence.source.name = 'ncbi-nuccore-srlv'"
+compute alignment AL_TREE_SRLV_A18 srlvCompoundAlignerNoRev  --whereClause "sequence.source.name = 'ncbi-nuccore-srlv'"
+
+compute alignment AL_TREE_SRLV_B1  srlvCompoundAligner  --whereClause "sequence.source.name = 'ncbi-nuccore-srlv'"
+compute alignment AL_TREE_SRLV_B2  srlvCompoundAligner  --whereClause "sequence.source.name = 'ncbi-nuccore-srlv'"
+compute alignment AL_TREE_SRLV_B3  srlvCompoundAligner  --whereClause "sequence.source.name = 'ncbi-nuccore-srlv'"
+compute alignment AL_TREE_SRLV_C   srlvCompoundAligner  --whereClause "sequence.source.name = 'ncbi-nuccore-srlv'"
+
+compute alignment AL_TREE_SRLV_E1   srlvCompoundAlignerNoTat --whereClause "sequence.source.name = 'ncbi-nuccore-srlv'"
+compute alignment AL_TREE_SRLV_E2   srlvCompoundAlignerNoTat --whereClause "sequence.source.name = 'ncbi-nuccore-srlv'"

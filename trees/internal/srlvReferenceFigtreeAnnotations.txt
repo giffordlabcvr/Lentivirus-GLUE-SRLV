@@ -1,80 +1,80 @@
 taxon	sequenceID	combined	pubmed_id	source	name	isolate	country	subtype	genotype	collection_year
 alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-core/AF322109	AF322109	AF322109/B/C/Norway/-/1GA	16476978	ncbi-refseqs-core	SRLV	1GA	Norway	C	B	-
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/AF479638	AF479638	AF479638/A/A1/Portugal/1996/P1OLV		ncbi-refseqs-srlv	SRLV	P1OLV	Portugal	A1	A	1996
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/AY445885	AY445885	AY445885/A/A4/Switzerland/1999/-		ncbi-refseqs-srlv	SRLV	-	Switzerland	A4	A	1999
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/AY900630	AY900630	AY900630/B/B1/China/1992/gansu		ncbi-refseqs-srlv	SRLV	gansu	China	B1	B	1992
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/AF479638	AF479638	AF479638/A/A1/Portugal/1996/1996		ncbi-refseqs-srlv	SRLV	1996	Portugal	A1	A	1996
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/AY445885	AY445885	AY445885/A/A4/Switzerland/1999/1999		ncbi-refseqs-srlv	SRLV	1999	Switzerland	A4	A	1999
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/AY900630	AY900630	AY900630/B/B1/China/1992/1992		ncbi-refseqs-srlv	SRLV	1992	China	B1	B	1992
 alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-core/EU293537	EU293537	EU293537/E/E1/Italy/-/Roccaverano	18987157	ncbi-refseqs-core	SRLV	Roccaverano	Italy	E1	E	-
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/FJ195346	FJ195346	FJ195346/B/B2/Spain/2004/496		ncbi-refseqs-srlv	SRLV	496	Spain	B2	B	2004
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/FJ195346	FJ195346	FJ195346/B/B2/Spain/2004/2004		ncbi-refseqs-srlv	SRLV	2004	Spain	B2	B	2004
 alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-core/GQ381130	GQ381130	GQ381130/E/E2/Italy/-/Seui	20060658	ncbi-refseqs-core	SRLV	Seui	Italy	E2	E	-
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/GU120138	GU120138	GU120138/B/B1/China/2009/Shanxi		ncbi-refseqs-srlv	SRLV	Shanxi	China	B1	B	2009
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/HM210570	HM210570	HM210570/B/B1/Mexico/2004/FESC-752		ncbi-refseqs-srlv	SRLV	FESC-752	Mexico	B1	B	2004
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/HQ848062	HQ848062	HQ848062/A/A4/Spain/2005/697		ncbi-refseqs-srlv	SRLV	697	Spain	A4	A	2005
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/GU120138	GU120138	GU120138/B/B1/China/2009/2009		ncbi-refseqs-srlv	SRLV	2009	China	B1	B	2009
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/HM210570	HM210570	HM210570/B/B1/Mexico/2004/2004		ncbi-refseqs-srlv	SRLV	2004	Mexico	B1	B	2004
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/HQ848062	HQ848062	HQ848062/A/A4/Spain/2005/2005		ncbi-refseqs-srlv	SRLV	2005	Spain	A4	A	2005
 alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-core/JF502416	JF502416	JF502416/B/B3/Italy/-/Fonni	21562119	ncbi-refseqs-core	SRLV	Fonni	Italy	B3	B	-
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/JF502417	JF502417	JF502417/B/B3/Italy/2004/Volterra		ncbi-refseqs-srlv	SRLV	Volterra	Italy	B3	B	2004
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/KT214469	KT214469	KT214469/B/B1/China/1993/Sichuan		ncbi-refseqs-srlv	SRLV	Sichuan	China	B1	B	1993
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/KT453988	KT453988	KT453988/A/A4/Switzerland/2011/g6221		ncbi-refseqs-srlv	SRLV	g6221	Switzerland	A4	A	2011
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/KT453989	KT453989	KT453989/A/A4/Switzerland/2011/s7385		ncbi-refseqs-srlv	SRLV	s7385	Switzerland	A4	A	2011
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/KT453990	KT453990	KT453990/A/A4/Switzerland/2011/s7631		ncbi-refseqs-srlv	SRLV	s7631	Switzerland	A4	A	2011
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/KT749878	KT749878	KT749878/B/B1/China/1993/Shandong		ncbi-refseqs-srlv	SRLV	Shandong	China	B1	B	1993
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/KT749879	KT749879	KT749879/B/B1/China/1993/Shaanxi		ncbi-refseqs-srlv	SRLV	Shaanxi	China	B1	B	1993
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/JF502417	JF502417	JF502417/B/B3/Italy/2004/2004		ncbi-refseqs-srlv	SRLV	2004	Italy	B3	B	2004
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/KT214469	KT214469	KT214469/B/B1/China/1993/1993		ncbi-refseqs-srlv	SRLV	1993	China	B1	B	1993
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/KT453988	KT453988	KT453988/A/A4/Switzerland/2011/2011		ncbi-refseqs-srlv	SRLV	2011	Switzerland	A4	A	2011
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/KT453989	KT453989	KT453989/A/A4/Switzerland/2011/2011		ncbi-refseqs-srlv	SRLV	2011	Switzerland	A4	A	2011
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/KT453990	KT453990	KT453990/A/A4/Switzerland/2011/2011		ncbi-refseqs-srlv	SRLV	2011	Switzerland	A4	A	2011
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/KT749878	KT749878	KT749878/B/B1/China/1993/1993		ncbi-refseqs-srlv	SRLV	1993	China	B1	B	1993
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/KT749879	KT749879	KT749879/B/B1/China/1993/1993		ncbi-refseqs-srlv	SRLV	1993	China	B1	B	1993
 alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/KT749880	KT749880	KT749880/B/B1/China/-/guizhou		ncbi-refseqs-srlv	SRLV	guizhou	China	B1	B	-
 alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/KT749881	KT749881	KT749881/B/B1/China/-/gs-35V		ncbi-refseqs-srlv	SRLV	gs-35V	China	B1	B	-
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/KT898826	KT898826	KT898826/A/A0/Jordan/2007/Jord1		ncbi-refseqs-srlv	SRLV	Jord1	Jordan	A0	A	2007
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/KY358787	KY358787	KY358787/A/A3/United States/2006/USMARC-200303013-1		ncbi-refseqs-srlv	SRLV	USMARC-200303013-1	United States	A3	A	2006
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/KY358788	KY358788	KY358788/A/A3/United States/2003/USMARC-199906011-2		ncbi-refseqs-srlv	SRLV	USMARC-199906011-2	United States	A3	A	2003
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/M10608	M10608	M10608/A/A1/Iceland/1953/Icelandic 1514; Icelandic LV1-1		ncbi-refseqs-srlv	SRLV	Icelandic 1514; Icelandic LV1-1	Iceland	A1	A	1953
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/M31646	M31646	M31646/A/A1/South Africa/1976/-		ncbi-refseqs-srlv	SRLV	-	South Africa	A1	A	1976
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/M34193	M34193	M34193/A/A1/South Africa/1976/-		ncbi-refseqs-srlv	SRLV	-	South Africa	A1	A	1976
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/M51543	M51543	M51543/A/A1/Iceland/1952/-		ncbi-refseqs-srlv	SRLV	-	Iceland	A1	A	1952
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/M60610	M60610	M60610/A/A1/Iceland/1949/Icelandic 1514		ncbi-refseqs-srlv	SRLV	Icelandic 1514	Iceland	A1	A	1949
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/KT898826	KT898826	KT898826/A/A0/Jordan/2007/2007		ncbi-refseqs-srlv	SRLV	2007	Jordan	A0	A	2007
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/KY358787	KY358787	KY358787/A/A3/United States/2006/2006		ncbi-refseqs-srlv	SRLV	2006	United States	A3	A	2006
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/KY358788	KY358788	KY358788/A/A3/United States/2003/2003		ncbi-refseqs-srlv	SRLV	2003	United States	A3	A	2003
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/M10608	M10608	M10608/A/A1/Iceland/1953/1953		ncbi-refseqs-srlv	SRLV	1953	Iceland	A1	A	1953
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/M31646	M31646	M31646/A/A1/South Africa/1976/1976		ncbi-refseqs-srlv	SRLV	1976	South Africa	A1	A	1976
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/M34193	M34193	M34193/A/A1/South Africa/1976/1976		ncbi-refseqs-srlv	SRLV	1976	South Africa	A1	A	1976
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/M51543	M51543	M51543/A/A1/Iceland/1952/1952		ncbi-refseqs-srlv	SRLV	1952	Iceland	A1	A	1952
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/M60610	M60610	M60610/A/A1/Iceland/1949/1949		ncbi-refseqs-srlv	SRLV	1949	Iceland	A1	A	1949
 alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MG554402	MG554402	MG554402/B/B2/Italy/-/SRLV001		ncbi-refseqs-srlv	SRLV	SRLV001	Italy	B2	B	-
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MG554403	MG554403	MG554403/A/A8/Italy/2008/SRLV002		ncbi-refseqs-srlv	SRLV	SRLV002	Italy	A8	A	2008
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MG554404	MG554404	MG554404/A/A8/Italy/2008/SRLV003		ncbi-refseqs-srlv	SRLV	SRLV003	Italy	A8	A	2008
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MG554405	MG554405	MG554405/A/A8/Italy/2008/SRLV004		ncbi-refseqs-srlv	SRLV	SRLV004	Italy	A8	A	2008
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MG554406	MG554406	MG554406/A/A8/Italy/2008/SRLV005		ncbi-refseqs-srlv	SRLV	SRLV005	Italy	A8	A	2008
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MG554407	MG554407	MG554407/A/A8/Italy/2008/SRLV006		ncbi-refseqs-srlv	SRLV	SRLV006	Italy	A8	A	2008
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MG554408	MG554408	MG554408/A/A8/Italy/2008/SRLV007		ncbi-refseqs-srlv	SRLV	SRLV007	Italy	A8	A	2008
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MG554409	MG554409	MG554409/A/A1/Italy/2008/SRLV009		ncbi-refseqs-srlv	SRLV	SRLV009	Italy	A1	A	2008
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MG554403	MG554403	MG554403/A/A8/Italy/2008/2008		ncbi-refseqs-srlv	SRLV	2008	Italy	A8	A	2008
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MG554404	MG554404	MG554404/A/A8/Italy/2008/2008		ncbi-refseqs-srlv	SRLV	2008	Italy	A8	A	2008
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MG554405	MG554405	MG554405/A/A8/Italy/2008/2008		ncbi-refseqs-srlv	SRLV	2008	Italy	A8	A	2008
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MG554406	MG554406	MG554406/A/A8/Italy/2008/2008		ncbi-refseqs-srlv	SRLV	2008	Italy	A8	A	2008
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MG554407	MG554407	MG554407/A/A8/Italy/2008/2008		ncbi-refseqs-srlv	SRLV	2008	Italy	A8	A	2008
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MG554408	MG554408	MG554408/A/A8/Italy/2008/2008		ncbi-refseqs-srlv	SRLV	2008	Italy	A8	A	2008
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MG554409	MG554409	MG554409/A/A1/Italy/2008/2008		ncbi-refseqs-srlv	SRLV	2008	Italy	A1	A	2008
 alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MG554410	MG554410	MG554410/B/B1/Italy/-/SRLV010		ncbi-refseqs-srlv	SRLV	SRLV010	Italy	B1	B	-
 alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MG554411	MG554411	MG554411/B/B1/Italy/-/SRLV014		ncbi-refseqs-srlv	SRLV	SRLV014	Italy	B1	B	-
 alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MG554412	MG554412	MG554412/B/B1/Italy/-/SRLV016		ncbi-refseqs-srlv	SRLV	SRLV016	Italy	B1	B	-
 alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MG554413	MG554413	MG554413/B/B1/Italy/-/SRLV017		ncbi-refseqs-srlv	SRLV	SRLV017	Italy	B1	B	-
 alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MG554414	MG554414	MG554414/B/B1/Italy/-/SRLV020		ncbi-refseqs-srlv	SRLV	SRLV020	Italy	B1	B	-
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MG996440	MG996440	MG996440/B/B1/Mexico/2013/SRLV/B1/Goat/MX/INIFAP-1/2013		ncbi-refseqs-srlv	SRLV	SRLV/B1/Goat/MX/INIFAP-1/2013	Mexico	B1	B	2013
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MH374283	MH374283	MH374283/A/A8/Italy/2017/SRLV024		ncbi-refseqs-srlv	SRLV	SRLV024	Italy	A8	A	2017
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MH374284	MH374284	MH374284/A/A8/Italy/2017/SRLV025		ncbi-refseqs-srlv	SRLV	SRLV025	Italy	A8	A	2017
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MH374285	MH374285	MH374285/A/A8/Italy/2017/SRLV026		ncbi-refseqs-srlv	SRLV	SRLV026	Italy	A8	A	2017
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MH374286	MH374286	MH374286/A/A8/Italy/2017/SRLV032		ncbi-refseqs-srlv	SRLV	SRLV032	Italy	A8	A	2017
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MH374287	MH374287	MH374287/A/A18/Italy/2017/SRLV038		ncbi-refseqs-srlv	SRLV	SRLV038	Italy	A18	A	2017
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MH374288	MH374288	MH374288/B/B2/Italy/2017/SRLV042		ncbi-refseqs-srlv	SRLV	SRLV042	Italy	B2	B	2017
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MG996440	MG996440	MG996440/B/B1/Mexico/2013/2013		ncbi-refseqs-srlv	SRLV	2013	Mexico	B1	B	2013
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MH374283	MH374283	MH374283/A/A8/Italy/2017/2017		ncbi-refseqs-srlv	SRLV	2017	Italy	A8	A	2017
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MH374284	MH374284	MH374284/A/A8/Italy/2017/2017		ncbi-refseqs-srlv	SRLV	2017	Italy	A8	A	2017
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MH374285	MH374285	MH374285/A/A8/Italy/2017/2017		ncbi-refseqs-srlv	SRLV	2017	Italy	A8	A	2017
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MH374286	MH374286	MH374286/A/A8/Italy/2017/2017		ncbi-refseqs-srlv	SRLV	2017	Italy	A8	A	2017
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MH374287	MH374287	MH374287/A/A18/Italy/2017/2017		ncbi-refseqs-srlv	SRLV	2017	Italy	A18	A	2017
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MH374288	MH374288	MH374288/B/B2/Italy/2017/2017		ncbi-refseqs-srlv	SRLV	2017	Italy	B2	B	2017
 alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MH374289	MH374289	MH374289/B/B1/Italy/-/SRLV_Taccone		ncbi-refseqs-srlv	SRLV	SRLV_Taccone	Italy	B1	B	-
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MH374290	MH374290	MH374290/B/B1/Italy/1989/SRLV_To1.89		ncbi-refseqs-srlv	SRLV	SRLV_To1.89	Italy	B1	B	1989
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MH374291	MH374291	MH374291/A/A8/Italy/2017/SRLV_VdA		ncbi-refseqs-srlv	SRLV	SRLV_VdA	Italy	A8	A	2017
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MH916859	MH916859	MH916859/A/A3/United States/2017/1150		ncbi-refseqs-srlv	SRLV	1150	United States	A3	A	2017
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993896	MT993896	MT993896/A/A3/United States/2006/USMARC-200303013-1		ncbi-refseqs-srlv	SRLV	USMARC-200303013-1	United States	A3	A	2006
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993897	MT993897	MT993897/A/A3/United States/2006/USMARC-200303038-1		ncbi-refseqs-srlv	SRLV	USMARC-200303038-1	United States	A3	A	2006
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993898	MT993898	MT993898/A/A3/United States/2006/USMARC-200303332-1		ncbi-refseqs-srlv	SRLV	USMARC-200303332-1	United States	A3	A	2006
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993899	MT993899	MT993899/A/A3/United States/2006/USMARC-200103515-1		ncbi-refseqs-srlv	SRLV	USMARC-200103515-1	United States	A3	A	2006
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993900	MT993900	MT993900/A/A3/United States/2006/USMARC-200050064-r		ncbi-refseqs-srlv	SRLV	USMARC-200050064-r	United States	A3	A	2006
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993901	MT993901	MT993901/A/A3/United States/2007/USMARC-200323455-1		ncbi-refseqs-srlv	SRLV	USMARC-200323455-1	United States	A3	A	2007
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993902	MT993902	MT993902/A/A3/United States/2006/USMARC-200103342-1		ncbi-refseqs-srlv	SRLV	USMARC-200103342-1	United States	A3	A	2006
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993903	MT993903	MT993903/A/A3/United States/2007/USMARC-199835918-1		ncbi-refseqs-srlv	SRLV	USMARC-199835918-1	United States	A3	A	2007
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993904	MT993904	MT993904/A/A3/United States/2006/USMARC-200023230-1		ncbi-refseqs-srlv	SRLV	USMARC-200023230-1	United States	A3	A	2006
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993905	MT993905	MT993905/A/A3/United States/2017/USMARC-201373037-1		ncbi-refseqs-srlv	SRLV	USMARC-201373037-1	United States	A3	A	2017
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993906	MT993906	MT993906/A/A3/United States/2006/USMARC-200117502-r		ncbi-refseqs-srlv	SRLV	USMARC-200117502-r	United States	A3	A	2006
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993907	MT993907	MT993907/A/A3/United States/2005/USMARC-200216049-r		ncbi-refseqs-srlv	SRLV	USMARC-200216049-r	United States	A3	A	2005
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993908	MT993908	MT993908/A/A3/United States/2006/USMARC-200212120-r		ncbi-refseqs-srlv	SRLV	USMARC-200212120-r	United States	A3	A	2006
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993909	MT993909	MT993909/A/A3/United States/2007/USMARC-200312013-r		ncbi-refseqs-srlv	SRLV	USMARC-200312013-r	United States	A3	A	2007
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993910	MT993910	MT993910/A/A3/United States/2007/USMARC-200312088-r		ncbi-refseqs-srlv	SRLV	USMARC-200312088-r	United States	A3	A	2007
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993911	MT993911	MT993911/A/A3/United States/2003/USMARC-199906011-2		ncbi-refseqs-srlv	SRLV	USMARC-199906011-2	United States	A3	A	2003
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993912	MT993912	MT993912/A/A3/United States/2006/USMARC-200106932-2		ncbi-refseqs-srlv	SRLV	USMARC-200106932-2	United States	A3	A	2006
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993913	MT993913	MT993913/A/A3/United States/2004/USMARC-200106929-2		ncbi-refseqs-srlv	SRLV	USMARC-200106929-2	United States	A3	A	2004
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993914	MT993914	MT993914/A/A3/United States/2006/USMARC-200016283-2		ncbi-refseqs-srlv	SRLV	USMARC-200016283-2	United States	A3	A	2006
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993915	MT993915	MT993915/A/A3/United States/2007/USMARC-200335185-2		ncbi-refseqs-srlv	SRLV	USMARC-200335185-2	United States	A3	A	2007
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993916	MT993916	MT993916/A/A3/United States/2006/USMARC-200177363-2		ncbi-refseqs-srlv	SRLV	USMARC-200177363-2	United States	A3	A	2006
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993917	MT993917	MT993917/A/A3/United States/2006/USMARC-199916128-2		ncbi-refseqs-srlv	SRLV	USMARC-199916128-2	United States	A3	A	2006
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993918	MT993918	MT993918/A/A3/United States/2006/USMARC-199916193-r		ncbi-refseqs-srlv	SRLV	USMARC-199916193-r	United States	A3	A	2006
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MW248464	MW248464	MW248464/A/A0/China/2020/NM1111		ncbi-refseqs-srlv	SRLV	NM1111	China	A0	A	2020
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MH374290	MH374290	MH374290/B/B1/Italy/1989/1989		ncbi-refseqs-srlv	SRLV	1989	Italy	B1	B	1989
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MH374291	MH374291	MH374291/A/A8/Italy/2017/2017		ncbi-refseqs-srlv	SRLV	2017	Italy	A8	A	2017
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MH916859	MH916859	MH916859/A/A3/United States/2017/2017		ncbi-refseqs-srlv	SRLV	2017	United States	A3	A	2017
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993896	MT993896	MT993896/A/A3/United States/2006/2006		ncbi-refseqs-srlv	SRLV	2006	United States	A3	A	2006
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993897	MT993897	MT993897/A/A3/United States/2006/2006		ncbi-refseqs-srlv	SRLV	2006	United States	A3	A	2006
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993898	MT993898	MT993898/A/A3/United States/2006/2006		ncbi-refseqs-srlv	SRLV	2006	United States	A3	A	2006
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993899	MT993899	MT993899/A/A3/United States/2006/2006		ncbi-refseqs-srlv	SRLV	2006	United States	A3	A	2006
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993900	MT993900	MT993900/A/A3/United States/2006/2006		ncbi-refseqs-srlv	SRLV	2006	United States	A3	A	2006
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993901	MT993901	MT993901/A/A3/United States/2007/2007		ncbi-refseqs-srlv	SRLV	2007	United States	A3	A	2007
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993902	MT993902	MT993902/A/A3/United States/2006/2006		ncbi-refseqs-srlv	SRLV	2006	United States	A3	A	2006
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993903	MT993903	MT993903/A/A3/United States/2007/2007		ncbi-refseqs-srlv	SRLV	2007	United States	A3	A	2007
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993904	MT993904	MT993904/A/A3/United States/2006/2006		ncbi-refseqs-srlv	SRLV	2006	United States	A3	A	2006
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993905	MT993905	MT993905/A/A3/United States/2017/2017		ncbi-refseqs-srlv	SRLV	2017	United States	A3	A	2017
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993906	MT993906	MT993906/A/A3/United States/2006/2006		ncbi-refseqs-srlv	SRLV	2006	United States	A3	A	2006
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993907	MT993907	MT993907/A/A3/United States/2005/2005		ncbi-refseqs-srlv	SRLV	2005	United States	A3	A	2005
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993908	MT993908	MT993908/A/A3/United States/2006/2006		ncbi-refseqs-srlv	SRLV	2006	United States	A3	A	2006
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993909	MT993909	MT993909/A/A3/United States/2007/2007		ncbi-refseqs-srlv	SRLV	2007	United States	A3	A	2007
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993910	MT993910	MT993910/A/A3/United States/2007/2007		ncbi-refseqs-srlv	SRLV	2007	United States	A3	A	2007
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993911	MT993911	MT993911/A/A3/United States/2003/2003		ncbi-refseqs-srlv	SRLV	2003	United States	A3	A	2003
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993912	MT993912	MT993912/A/A3/United States/2006/2006		ncbi-refseqs-srlv	SRLV	2006	United States	A3	A	2006
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993913	MT993913	MT993913/A/A3/United States/2004/2004		ncbi-refseqs-srlv	SRLV	2004	United States	A3	A	2004
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993914	MT993914	MT993914/A/A3/United States/2006/2006		ncbi-refseqs-srlv	SRLV	2006	United States	A3	A	2006
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993915	MT993915	MT993915/A/A3/United States/2007/2007		ncbi-refseqs-srlv	SRLV	2007	United States	A3	A	2007
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993916	MT993916	MT993916/A/A3/United States/2006/2006		ncbi-refseqs-srlv	SRLV	2006	United States	A3	A	2006
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993917	MT993917	MT993917/A/A3/United States/2006/2006		ncbi-refseqs-srlv	SRLV	2006	United States	A3	A	2006
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MT993918	MT993918	MT993918/A/A3/United States/2006/2006		ncbi-refseqs-srlv	SRLV	2006	United States	A3	A	2006
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/MW248464	MW248464	MW248464/A/A0/China/2020/2020		ncbi-refseqs-srlv	SRLV	2020	China	A0	A	2020
 alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-core/NC_001452	NC_001452	NC_001452/A/A1/Iceland/-/NK	2824836	ncbi-refseqs-core	SRLV	NK	Iceland	A1	A	-
 alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-core/NC_001463	NC_001463	NC_001463/B/B1/United States/-/Clements	2171210	ncbi-refseqs-core	SRLV	Clements	United States	B1	B	-
-alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/S51392	S51392	S51392/A/A1/United Kingdon/1984/-		ncbi-refseqs-srlv	SRLV	-	United Kingdon	A1	A	1984
+alignment/AL_UNC_TREE_OvineCaprine/member/ncbi-refseqs-srlv/S51392	S51392	S51392/A/A1/United Kingdon/1984/1984		ncbi-refseqs-srlv	SRLV	1984	United Kingdon	A1	A	1984

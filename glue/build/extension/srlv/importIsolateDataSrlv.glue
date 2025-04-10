@@ -8,7 +8,7 @@
 	module genbankXmlPopulatorSrlv populate -w "source.name like '%-srlv'"
 
 	# Import metadata for exogenous reference sequences from tabular
-	create module -f modules/build/extension/srlv/sideDataImporterSrlv.xml srlvSideDataImporter
-	module srlvSideDataImporter 
+	create module -f modules/build/extension/srlv/sideDataImporterSrlvRefseqs.xml sideDataImporterSrlvRefseqs
+	module sideDataImporterSrlvRefseqs 
 	  populate -f tabular/extension/srlv/srlv-refseqs.tsv
       exit
