@@ -2,8 +2,11 @@
 //Do genotype and lineage assignment for all ncbi nuccore sequences
 var sourceName ='ncbi-nuccore-srlv';
 var ncbinuccore;
-var whereClause = "source.name = '"+sourceName+"' and genotype = null";
+
+//var whereClause = "source.name = '"+sourceName+"' and genotype = null";
+var whereClause = "source.name = '"+sourceName+"' and species = 'SRLV'";
 ncbinuccore = glue.tableToObjects(glue.command(["list", "sequence", "sequenceID", "-w", whereClause]));
+
 //glue.log("INFO", "RESULT WAS ", ncbinuccore);
 var processed = 0;
 
@@ -26,7 +29,7 @@ _.each(ncbinuccore, function(ncbinuccore) {
 	var subtypeResult = genotypeRow[2]
 
 	if (genotypeResult) {
-
+ 
 		var genotype = genotypeResult.replace("AL_TREE_SRLV_", "");			
 		//glue.log("INFO", "Genotype result: ", genotype);
 		glue.inMode("sequence/"+sourceName+"/"+sequenceID, function() {
@@ -51,5 +54,4 @@ _.each(ncbinuccore, function(ncbinuccore) {
 	}
 
 });	
-
 
