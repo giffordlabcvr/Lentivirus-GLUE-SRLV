@@ -1,0 +1,32 @@
+alignment AL_TREE_OvineCaprine
+ 
+    add member -w "species = 'SRLV' and source.name = 'ncbi-nuccore-srlv'"
+
+    demote member AL_TREE_SRLV_A  --whereClause "sequence.genotype = 'A' and sequence.source.name = 'ncbi-nuccore-srlv'"
+    demote member AL_TREE_SRLV_BC --whereClause "sequence.genotype = 'BC' and sequence.source.name = 'ncbi-nuccore-srlv'"
+    demote member AL_TREE_SRLV_E  --whereClause "sequence.genotype = 'E' and sequence.source.name = 'ncbi-nuccore-srlv'"
+    exit
+
+alignment AL_TREE_SRLV_A
+ 
+    demote member AL_TREE_SRLV_A0  --whereClause "sequence.subtype = 'A0' and sequence.source.name = 'ncbi-nuccore-srlv'"
+    demote member AL_TREE_SRLV_A1  --whereClause "sequence.subtype = 'A1' and sequence.source.name = 'ncbi-nuccore-srlv'"
+    demote member AL_TREE_SRLV_A3  --whereClause "sequence.subtype = 'A3' and sequence.source.name = 'ncbi-nuccore-srlv'"
+    demote member AL_TREE_SRLV_A4  --whereClause "sequence.subtype = 'A4' and sequence.source.name = 'ncbi-nuccore-srlv'"
+    demote member AL_TREE_SRLV_A8  --whereClause "sequence.subtype = 'A8' and sequence.source.name = 'ncbi-nuccore-srlv'"
+    demote member AL_TREE_SRLV_A18 --whereClause "sequence.subtype = 'A18' and sequence.source.name = 'ncbi-nuccore-srlv'"
+    exit
+
+alignment AL_TREE_SRLV_BC
+ 
+    demote member AL_TREE_SRLV_B1  --whereClause "sequence.subtype = 'B1' and sequence.source.name = 'ncbi-nuccore-srlv'"
+    demote member AL_TREE_SRLV_B2  --whereClause "sequence.subtype = 'B2' and sequence.source.name = 'ncbi-nuccore-srlv'"
+    demote member AL_TREE_SRLV_B3  --whereClause "sequence.subtype = 'B3' and sequence.source.name = 'ncbi-nuccore-srlv'"
+    demote member AL_TREE_SRLV_C   --whereClause "sequence.subtype = 'C' and sequence.source.name  = 'ncbi-nuccore-srlv'"
+    exit
+
+alignment AL_TREE_SRLV_E
+ 
+    demote member AL_TREE_SRLV_E1  --whereClause "sequence.subtype = 'E1' and sequence.source.name = 'ncbi-nuccore-srlv'"
+    demote member AL_TREE_SRLV_E2  --whereClause "sequence.subtype = 'E2' and sequence.source.name = 'ncbi-nuccore-srlv'"
+    exit

@@ -1,0 +1,38 @@
+
+  # Build small ruminant lentivirus (SRLV) extension project
+  project lentivirus
+
+	# Import sequences
+	import source sources/virus/extension/srlv/ncbi-nuccore-srlv
+
+	# Link extension set sequences to isolate data
+	run script glue/build/extension/srlv/linkIsolateNuccoreSeqsSrlv.js
+
+	# Extract data from the XML files
+    delete module genbankXmlPopulatorSrlv    
+    create module -f modules/build/extension/srlv/genbankXmlPopulatorSrlv.xml
+	module genbankXmlPopulatorSrlv populate -w "source.name = 'ncbi-nuccore-srlv'"
+
+	# Import curated metadatafrom tabular
+	delete module srlvSideDataImporter
+	create module -f modules/build/extension/srlv/sideDataImporterSrlv.xml srlvSideDataImporter
+	module srlvSideDataImporter 
+	  populate -f tabular/extension/srlv/srlv-curated-metadata.tsv
+      exit
+
+    # Inherit feature locations
+    #run file glue/build/extension/srlv/inheritFeatureLocationsSrlvRefs.glue
+
+    # Add nuccore sequences to SRLV alignment tree
+    run file glue/build/extension/srlv/extendAlignmentTreeSrlv.glue
+
+	# Compute alignment rows for nuccore sequences
+	run file glue/build/extension/srlv/computeNuccoreAlignmentRows.glue
+	
+	# Record feature presence
+	#run file glue/build/extension/srlv/recordFeaturePresenceSrlv.glue
+
+	# Validate
+	validate
+
+	exit

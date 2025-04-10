@@ -1,5 +1,4 @@
 
-
   reference REF_SRLV_B1_HM210570
 
     add feature-location whole_genome
@@ -52,7 +51,6 @@
       add segment 4225 5049
       exit
       
- 
     add feature-location vif
     feature-location vif
       add segment 5027 5716
@@ -142,4 +140,276 @@
       exit
 
   exit 
+
+
+  reference REF_SRLV_A0_KT898826
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 9136
+      exit
+
+    add feature-location 5LTR
+    feature-location 5LTR
+      add segment 1 135
+      exit
+         
+    add feature-location gag
+    feature-location gag
+      add segment 408 1763
+      exit
+         
+    add feature-location pol
+    feature-location pol
+      add segment 1667 4945
+      exit
+         
+    add feature-location vif
+    feature-location vif
+      add segment 4911 5597
+      exit
+ 
+    add feature-location tat
+    feature-location tat
+      add segment 5599 5886
+      exit
+          
+    add feature-location env
+    feature-location env
+      add segment 5912 8869
+      exit
+
+    add feature-location 3LTR
+    feature-location 3LTR
+      add segment 8851 9136
+      exit
+
+  exit 
+
+
+  reference REF_SRLV_A1_M31646
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 9256
+      exit
+
+    add feature-location 5LTR
+    feature-location 5LTR
+      add segment 1 135
+      exit
+         
+    add feature-location gag
+    feature-location gag
+      add segment 408 1763
+      exit
+         
+    add feature-location pol
+    feature-location pol
+      add segment 1667 4945
+      exit
+         
+    add feature-location vif
+    feature-location vif
+      add segment 4911 5597
+      exit
+ 
+    add feature-location tat
+    feature-location tat
+      add segment 5599 5886
+      exit
+          
+    add feature-location env
+    feature-location env
+      add segment 5912 8869
+      exit
+
+    add feature-location 3LTR
+    feature-location 3LTR
+      add segment 8851 9256
+      exit
+
+  exit 
+
+
+  reference REF_SRLV_A3_MT993913
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 9201
+      exit
+
+    add feature-location 5LTR
+    feature-location 5LTR
+      add segment 1 135
+      exit
+         
+    add feature-location gag
+    feature-location gag
+      add segment 504 1847
+      exit
+         
+    add feature-location pol
+    feature-location pol
+      add segment 1793 5038
+      exit
+         
+    add feature-location vif
+    feature-location vif
+      add segment 4911 5597
+      exit
+ 
+    add feature-location tat
+    feature-location tat
+      add segment 5687 5971
+      exit
+          
+    add feature-location env
+    feature-location env
+      add segment 5988 8957
+      exit
+
+    add feature-location rev
+    feature-location rev
+      add segment 5988 6120 --spliceIndex 1
+      add segment 8577 8884 --spliceIndex 2
+      exit
+
+    add feature-location 3LTR
+    feature-location 3LTR
+      add segment 8904 9201
+      exit
+      
+  exit 
+
+
+  reference REF_SRLV_A4_AY445885
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 9023
+      exit
+
+    add feature-location 5LTR
+    feature-location 5LTR
+      add segment 1 43
+      exit
+         
+    add feature-location gag
+    feature-location gag
+      add segment 382 1728
+      exit
+         
+    add feature-location pol
+    feature-location pol
+      add segment 1596 4925
+      exit
+         
+    add feature-location vif
+    feature-location vif
+      add segment 4876 5568
+      exit
+ 
+    add feature-location tat
+    feature-location tat
+      add segment 5568 5852
+      exit
+          
+    add feature-location env
+    feature-location env
+      add segment 5868 8828
+      exit
+      
+  exit 
+
+
+  reference REF_SRLV_A8_MG554405
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 9206
+      exit
+
+    add feature-location 5LTR
+    feature-location 5LTR
+      add segment 1 117
+      exit
+         
+    add feature-location gag
+    feature-location gag
+      add segment 574 1908
+      exit
+         
+    add feature-location pol
+    feature-location pol
+      add segment 1860 5099
+      exit
+         
+    add feature-location vif
+    feature-location vif
+      add segment 5056 5751
+      exit
+ 
+    add feature-location tat
+    feature-location tat
+      add segment 5751 6035
+      exit
+          
+    add feature-location env
+    feature-location env
+      add segment 6044 8929
+      exit
+
+    add feature-location 3LTR
+    feature-location 3LTR
+      add segment 8849 9206
+      exit
+
+  exit 
+
+
+  reference REF_SRLV_A18_MH374287
+
+    add feature-location whole_genome
+    feature-location whole_genome
+      add segment 1 9164
+      exit
+
+    add feature-location 5LTR
+    feature-location 5LTR
+      add segment 1 155
+      exit
+         
+    add feature-location gag
+    feature-location gag
+      add segment 475 1827
+      exit
+         
+    add feature-location pol
+    feature-location pol
+      add segment 2088 5009
+      exit
+         
+    add feature-location vif
+    feature-location vif
+      add segment 4975 5667
+      exit
+ 
+    add feature-location tat
+    feature-location tat
+      add segment 5667 5951
+      exit
+          
+    add feature-location env
+    feature-location env
+      add segment 5970 8927
+      exit
+
+    add feature-location 3LTR
+    feature-location 3LTR
+      add segment 8847 9164
+      exit
+  exit 
+
+
 
